@@ -1,0 +1,127 @@
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.App h1 {
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40rem;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+  margin: 10px 0;
+  word-wrap: break-word;
+}
+
+.todo span {
+  display: block;
+  width: 10rem;
+  word-wrap: break-word;
+}
+
+.todoText {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+
+input:focus {
+  border: 2px solid blueviolet;
+}
+
+.formControl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  color: #6d28d9;
+  background-color: #fff;
+  border: 1px solid #6d28d9;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.remove {
+  color: rgb(236, 68, 68);
+  border: 1px solid rgb(236, 68, 68);
+}
+
+.addTodo {
+  color: #fff;
+  background-color: #6d28d9;
+}
+
+.updateTodo {
+  border: 1px solid #9261e2;
+  background-color: #9261e2;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar h4,
+p,
+h5 {
+  margin-bottom: 1rem;
+}
+
+.navbar-items-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.navbar-item {
+  width: 10rem;
+  display: block;
+  word-wrap: break-word;
+  color: rgb(24, 145, 24);
+  font-weight: bold;
+}
+
+.filter {
+  width: 20vw;
+  margin: 1rem 0;
+}
